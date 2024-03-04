@@ -27,13 +27,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-#def calcular(x, y ,z ):
- #   fact_i(x)
- #   prod_i(y)
- #   fact_i(z)
- #   return
-
-
-#    print(calcular(fact_1 = 5 ,prod_i = 5 ,fact_2 = 6))
-#    calcular(fact_1,prod_1,fact_2)
