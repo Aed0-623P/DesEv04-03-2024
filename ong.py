@@ -28,13 +28,12 @@ def main():
 if __name__ == "__main__":
     main()
 
-#def calcular(x, y ,z ):  #cual es el punto de esto? es contraproducente
+#def calcular(x, y ,z ):
  #   fact_i(x)
  #   prod_i(y)
  #   fact_i(z)
  #   return
 
 
-#    print(calcular(fact_1 = 5 ,prod_i = 5 ,fact_2 = 6))  #What?  esto puede reemplazar el input al inicio, pero por qué? si pide input y forzarlo,
-        #bueno, filo
+#    print(calcular(fact_1 = 5 ,prod_i = 5 ,fact_2 = 6))
 #    calcular(fact_1,prod_1,fact_2)
