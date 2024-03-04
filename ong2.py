@@ -1,7 +1,11 @@
 def calcular(x, y ,z):
-    x = fact_i(int(x))
-    y = prod_i(y)
-    z = fact_i(int(z))
+    x2 = fact_i(int(x))
+    y2 = prod_i(y)
+    z2 = fact_i(int(z))
+    print(f"El factorial de {x} es {x2}")
+    print(f"La productoria de {y} es {y2}")
+    print(f"El factorial de {z} es {z2}")
+    return
 
 def fact_i(x):
     y2 = 1
@@ -18,10 +22,9 @@ def prod_i(x):
             y *=(num)
         return y
 
-x = 5
-y = [3,6,4,2,8]
-z = 6
 
-resultado = calcular(x,y,z)
+#ingresar datos sin el "fact_1 = 5" solo dato
 
-print(resultado)
+calcular(5,[3,6,4,2,8],6)
+
+
