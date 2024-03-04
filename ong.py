@@ -1,5 +1,5 @@
 fact_1 = float(input("Ingrese el valor para la primer factorial: "))
-prod_1 = input("Ingrese el valor para la primera productoria ")
+prod_1 = input("Ingrese el valor para la primera productoria sin [] o comas: ")
 fact_2 = float(input("Ingrese el valor para la segunda factorial: "))
 
 #calcular factorial
@@ -11,7 +11,7 @@ def fact_i(x):
         x -= 1
     return y
 
-      #calcular productoria
+#calcular productoria
 def prod_i(x):
     y = 1
     for num in x:
